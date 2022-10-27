@@ -1,0 +1,12 @@
+ipywidgets
+notebook
+ensure   # to check passed argument is currect or not
+py-youtube
+
+
+# dev requirements
+pytest   
+tox
+black   # for formatting purpose
+flake8  # find out any errors if is there
+mypy    # used to check any type errors
