@@ -1,12 +1,26 @@
-ipywidgets
-notebook
-ensure   # to check passed argument is currect or not
-py-youtube
+ipywidgets==8.0.2
+notebook==6.4.12
+py-youtube==1.1.7
+ensure==1.0.2
+mkdocs-material
+
+# dev requirements -
+pytest==7.1.3
+tox==3.25.1
+black==22.8.0
+flake8==5.0.4
+mypy==0.971
+-e .
+
+# ipywidgets
+# notebook
+# ensure   # to check passed argument is currect or not
+# py-youtube
 
 
-# dev requirements
-pytest   
-tox
-black   # for formatting purpose
-flake8  # find out any errors if is there
-mypy    # used to check any type errors
+# # dev requirements
+# pytest   
+# tox
+# black   # for formatting purpose
+# flake8  # find out any errors if is there
+# mypy    # used to check any type errors
